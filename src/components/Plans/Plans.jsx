@@ -12,7 +12,7 @@ const Plans = () => {
                 <span className='stroke-text'>NOW WITH US</span>
             </div>
             <div className="plans">
-                {plansData.map((plan, i) =>(
+                {plansData.map((plan, i) => (
                     <div className="plan" key={i} >
                          {plan.icon}
                          <span> {plan.name} </span>
