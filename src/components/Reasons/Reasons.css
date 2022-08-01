@@ -1,7 +1,7 @@
 .reasons{
     padding: 0 2rem;
     display: flex;
-    gap:2rem;
+    gap: 2rem;
 
 }
 
@@ -32,12 +32,14 @@
 .left-r>:nth-child(3){
     width: 14rem;
     grid-column: 2/3;
+    grid-row: 2;
 }
 
 .left-r>:nth-child(4){
     width: 10rem;
     grid-row: 2;
     grid-column: 3/4; 
+    width: 10rem;
     height: 11.2rem;
 }
 
@@ -85,4 +87,4 @@
 
 .partners>img{
     width: 2.5rem;
-}
+} 

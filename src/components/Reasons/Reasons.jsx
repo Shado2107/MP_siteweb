@@ -21,10 +21,12 @@ const Reasons = () => {
              </div>
              <div className="right-r">
                 <span>Some reasons</span>
-                <div>
-                    <span className='stroke-text'>Why</span>
-                    <span> choose us ?</span>
 
+                    <div>
+                        <span className='stroke-text'>Why</span>
+                        <span> choose us ?</span>
+                    </div>
+                    
                     <div className='details-r'>
                         <div>
                             <img src={tick} alt="" />
@@ -53,8 +55,7 @@ const Reasons = () => {
                         <img src={nb} alt="" />
                         <img src={adidas} alt="" />
                         <img src={nike} alt="" />
-                    </div>
-                </div>
+                    </div> 
              </div>
         </div>
     );
